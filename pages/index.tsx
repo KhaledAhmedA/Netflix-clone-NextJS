@@ -25,3 +25,5 @@ export default function Home() {
 // npm install bcrypt
 // npm i -D @types/bcrypt
 // npm i axios
+// npm install react-icons
+// npm install @next-auth/prisma-adapter
