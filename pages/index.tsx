@@ -1,6 +1,7 @@
 import { NextPageContext } from "next";
 import { getSession } from "next-auth/react";
 import Navbar from '@/components/Navbar';
+import Billboard from "@/components/Billboard";
 
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
@@ -25,6 +26,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <Billboard />
     </>
   )
 }
@@ -32,7 +34,7 @@ export default function Home() {
 
 
 
-
+// https://internal.iti.gov.eg/iti/ICC/Round1%2023%2024/application/progress
 
 // npx create-next-app --typescript
 // npm run dev
